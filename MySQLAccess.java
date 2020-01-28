@@ -16,8 +16,8 @@ public class MySQLAccess {
             Class.forName("com.mysql.jdbc.Driver");
             // Setup the connection with the test DataBase - EVERYONE HAS ACCESS, PLEASE BE CAREFUL!!
             // Obviously, if you were distributing this file, you would not include the username and password. There are other ways...
-            connect = DriverManager.getConnection("jdbc:mysql://mrbartucz.com/CS485?user=CS485&password=WinonaState");
-            
+            connect = DriverManager.getConnection("jdbc:mysql://mrbartucz.com/CS485?user=pi8643bb&password=Password128");
+
             // if you want to connect to your local machine:
             // connect = DriverManager.getConnection("jdbc:mysql://localhost/MyDatabaseName?user=MyUserName&password=MyPassword");
 
